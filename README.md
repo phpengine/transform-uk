@@ -15,7 +15,7 @@ An example of Automation for Transform UK, So, to fire up our tests we do this:
 
 3. Download the Repo with the Tests and Automation scripts in it
 
-   git clone https://github.com/phpengine/transform-uk.git
+   git clone https://github.com/phpengine/transform-uk.git && cd transform-uk
 
 
 4. Execute the following command from the project root...
