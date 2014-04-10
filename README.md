@@ -10,12 +10,12 @@ An example of Automation for Transform UK, So, to fire up our tests we do this:
 
 2. Install Cleopatra
 
-   git clone https://github.com/phpengine/cleopatra && sudo php cleopatra/install-silent
+   cd /tmp && git clone https://github.com/phpengine/cleopatra && sudo php cleopatra/install-silent
 
 
 3. Download the Repo with the Tests and Automation scripts in it
 
-   https://github.com/phpengine/transform-uk.git
+   git clone https://github.com/phpengine/transform-uk.git
 
 
 4. Execute the following command from the project root...
@@ -26,3 +26,5 @@ An example of Automation for Transform UK, So, to fire up our tests we do this:
 This will kick off a whole load of automated goodness, including Configuring your system with
 Java (as a Selenium Dependency), Selenium Server, Starting the Server, Ensuring Firefox
 is installed, Ensuring Behat is installed, and then executing the Behat test Suite for you.
+
+Everything is written in PHP using configuration by code.
