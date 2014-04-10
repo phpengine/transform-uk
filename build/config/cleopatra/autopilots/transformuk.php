@@ -27,18 +27,15 @@ class AutoPilotConfigured extends AutoPilot {
                     array( "console-log-message" => "Hiya Transform! Lets automate testing on your home page"),
                 ) ),
                 array ( "Console" => array( "log" =>
-                    array( "console-log-message" => "We'll install Dapperstrano and Testingkamen incase we need them later"),
-                ) ),
-                array ( "Dapperstrano" => array( "ensure" =>
-                    array( "guess" => true ),
+                    array( "console-log-message" => "We'll install Testingkamen as we need it later"),
                 ) ),
                 array ( "Testingkamen" => array( "ensure" =>
                     array( "guess" => true ),
                 ) ),
                 array ( "Console" => array( "log" =>
-                    array( "console-log-message" => "First lets install Java"),
+                    array( "console-log-message" => "Then lets ensure Java is installed"),
                 ) ),
-                array ( "Java" => array( "install" =>
+                array ( "Java" => array( "ensure" =>
                     array( "guess" => true ),
                 ) ),
                 array ( "Console" => array( "log" =>
@@ -63,7 +60,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Then lets make sure Behat is installed"),
                 ) ),
-                array ( "Behat" => array( "install" =>
+                array ( "Behat" => array( "ensure" =>
                     array( "guess" => true),
                 ) ),
                 array ( "Console" => array( "log" =>
