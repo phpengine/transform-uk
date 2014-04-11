@@ -72,7 +72,8 @@ class AutoPilotConfigured extends AutoPilot {
                 ) ),
                 array ( "RunCommand" => array( "install" =>
                     array( "command" => "testingkamen behat execute --yes",
-                           "run-as-user" => "", ),
+                           "run-as-user" => "",
+                           "background" => "", ),
                 ) ),
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => $this->getEndingSpeech(), ),
