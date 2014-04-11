@@ -47,7 +47,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Then lets start the Selenium Server"),
                 ) ),
-                array ( "RunCommand" => array( "execute" =>
+                array ( "RunCommand" => array( "install" =>
                     array( "command" => "java -jar selenium-server.jar >/dev/null 2>&1 </dev/null",
                            "background" => true ),
                 ) ),
@@ -69,7 +69,7 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Now, let's execute our Behat Test Suite for the Transform Site"),
                 ) ),
-                array ( "RunCommand" => array( "execute" =>
+                array ( "RunCommand" => array( "install" =>
                     array( "command" => "testingkamen behat execute --yes" ),
                 ) ),
                 array ( "Console" => array( "log" =>
