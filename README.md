@@ -18,7 +18,7 @@ An example of Automation for Transform UK, So, to fire up our tests we do this:
    git clone https://github.com/phpengine/transform-uk.git && cd transform-uk
 
 
-4. Execute the following command from the project root...
+4. Kick off some automation for your Environment and the Tests...
 
    sudo cleopatra autopilot install build/config/cleopatra/autopilots/transformuk.php
 
