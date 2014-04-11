@@ -49,6 +49,7 @@ class AutoPilotConfigured extends AutoPilot {
                 ) ),
                 array ( "RunCommand" => array( "install" =>
                     array( "command" => "java -jar selenium-server.jar >/dev/null 2>&1 </dev/null",
+                           "run-as-user" => "",
                            "background" => true ),
                 ) ),
                 array ( "Console" => array( "log" =>
@@ -70,7 +71,8 @@ class AutoPilotConfigured extends AutoPilot {
                     array( "console-log-message" => "Now, let's execute our Behat Test Suite for the Transform Site"),
                 ) ),
                 array ( "RunCommand" => array( "install" =>
-                    array( "command" => "testingkamen behat execute --yes" ),
+                    array( "command" => "testingkamen behat execute --yes",
+                           "run-as-user" => "", ),
                 ) ),
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => $this->getEndingSpeech(), ),
