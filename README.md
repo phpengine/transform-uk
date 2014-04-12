@@ -1,7 +1,8 @@
 transform-uk
 ============
 
-An example of Automation for Transform UK, So, to fire up our tests we do this:
+An example of Automation for Transform UK. This will require Ubuntu. Ive tested it on 12.04 but it should work fine on
+any 12+ version. So, to fire up our tests we do this:
 
 1. Install PHP5 and Git
 
