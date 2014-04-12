@@ -61,6 +61,9 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Then lets make sure Behat is installed"),
                 ) ),
+                array ( "PackageManager" => array( "pkg-ensure" =>
+                array( "packager-name" => "Apt", "package-name" => "curl" ),
+                ) ),
                 array ( "Behat" => array( "ensure" =>
                     array( "guess" => true),
                 ) ),
