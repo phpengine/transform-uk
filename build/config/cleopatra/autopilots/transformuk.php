@@ -41,14 +41,14 @@ class AutoPilotConfigured extends AutoPilot {
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Then lets install Selenium Server"),
                 ) ),
-                array ( "SeleniumServer" => array( "install" =>
+                array ( "SeleniumServer" => array( "ensure" =>
                     array( "guess" => true ),
                 ) ),
                 array ( "Console" => array( "log" =>
                     array( "console-log-message" => "Then lets start the Selenium Server"),
                 ) ),
                 array ( "RunCommand" => array( "install" =>
-                    array( "command" => "java -jar selenium-server.jar >/dev/null 2>&1 </dev/null",
+                    array( "command" => "java -jar /opt/selenium/selenium-server.jar >/dev/null 2>&1 </dev/null",
                            "run-as-user" => "",
                            "background" => true ),
                 ) ),
